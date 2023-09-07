@@ -2,6 +2,8 @@
 
 This is a Repository for Telugu Autotmatic Speech recognition (ASR) model with `facebook/wav2vec2-large-xlsr-53` trained on IIIT Hyderabad ASR Challenge dataset and OpenSLR66 Telugu dataset. When using this model, make sure that your speech input is sampled at 16kHz.
 
+Trained model can be found at `https://huggingface.co/henilp105/wav2vec2-large-xls-r-300m-telugu-asr`.
+
 ## Training procedure
 
 ### Training hyperparameters
