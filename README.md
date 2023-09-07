@@ -122,7 +122,7 @@ result = test_dataset.map(evaluate, batched=True, batch_size=8)
 print("WER: {:2f}".format(100 * wer.compute(predictions=result["pred_strings"], references=result["sentence"])))
 ```
 
-**Test Result**: 33.44%
+**Test Result WER**: 33.44%
 
 ## Training
 
@@ -130,7 +130,7 @@ print("WER: {:2f}".format(100 * wer.compute(predictions=result["pred_strings"], 
 
 Training Data Preparation notebook can be found [here](prepare_dataset.ipynb)
 
-Training notebook can be found[here](training.ipynb)
+Training notebook can be found [here](training.ipynb)
 
 Evaluation notebook is [here](evaluation.ipynb)
 
